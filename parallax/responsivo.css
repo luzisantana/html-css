@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 760px) {
+
+    body {
+        background-size: cover;
+    }
+
+    header h1 {
+        padding-top: 200px;
+        font-size: 130%;
+        background-size: 100vh;
+    }
+
+    header p {
+        font-size: 110%;
+        width: 200px;
+    }
+
+    .normal {
+        padding-bottom: 200px;
+        font-size: 110%;
+        background-size: 100vh;
+    }
+
+    .img {
+        font-size: 110%;
+        background-size: 100vh;
+    }
+
+    footer {
+        font-size: 110%;
+    }
+
+    #imagem1 {
+        font-size: 110%;
+        height: 740px;
+        background-repeat: no-repeat;
+    }
+}
