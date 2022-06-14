@@ -2,41 +2,28 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sofia&display=swap');
 
-#section3 {
-    background-color:#BFBFBF;
+
+* footer {
+    font-family: 'Montserrat', sans-serif;
 }
-#contato {
-    padding-top: 80px;
-    background-color:#BFBFBF;
-    display: flex;
-    flex-direction: column;
-    width: 70%;
+footer {
+    line-height: 8px;
+    padding-left: 200px;
+    padding-bottom: 50px;
 }
 
-#nome , #telefone {
-    border-radius: 20px;
-    width: 20%;
-    height: 40px;
+footer h2 {
+    padding-top: 50px;
+    margin-top: 0;
+    font-size: 50px;
 }
 
-#email {
-    border-radius: 20px;
-    width: 40%;
-    height: 40px;
+footer ul li {
+    font-weight: bold;
+    list-style: none;
 }
 
-#msg {
-    border-radius: 20px;
-    height: 200px;
+footer ul {
+    padding-left: 0px;
 }
 
-#enviar {
-    border-radius: 20px;
-    font-size: 15px;
-    width: 10%;
-    padding: 10px;
-}
-
-input {
-    margin: 20px
-}

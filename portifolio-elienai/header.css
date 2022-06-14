@@ -11,7 +11,7 @@
     transition: 0.20s all;
 }
 * header {
-    width: 80vw;
+    width: 100%;
     font-family: 'Montserrat', sans-serif;
     background-color: #127369; 
     margin: 0 auto;
@@ -43,4 +43,3 @@ ul a:hover {
     background-color: white;
     color: black;
 }
-
