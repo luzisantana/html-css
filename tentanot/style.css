@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+* body {
+    background-size: 100%;
+    background-image: linear-gradient(to left, orange, yellow, green, black);
+    margin: 0 auto;    
+}
+
+main {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    
+    object-fit: cover;
+    object-position: center top;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+#container {
+    color: white;
+    width: 50vw;
+    height: 100vh;
+}
+
+.colunas {
+    width: 50vw;
+}
